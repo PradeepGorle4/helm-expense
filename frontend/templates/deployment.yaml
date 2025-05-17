@@ -30,7 +30,7 @@ spec:
               path: nginx.conf
       containers:
       - name: frontend
-        image: pradeepgorle/frontend:{{ .Values.deployment.imageVersion }}
+        image: pradeepgorle/frontend:{{ .Values.deployment.imageversion }}
         resources:
     # Soft Limit
           requests:
