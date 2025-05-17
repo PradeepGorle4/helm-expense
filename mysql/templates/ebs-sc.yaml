@@ -5,3 +5,5 @@ metadata:
 provisioner: ebs.csi.aws.com
 reclaimPolicy: Delete # Iam giving delete to avoid charges when I forget to remove them manually
 volumeBindingMode: WaitForFirstConsumer
+
+

@@ -1,0 +1,6 @@
+Best Suited for Helm Templates
+- Deployments, StatefulSets, DaemonSets – These are prime candidates since they often require dynamic configuration.
+- ConfigMaps & Secrets – Helm can help dynamically generate these based on values.yaml.
+- Services & Ingress – Ideal for managing networking configurations.
+- Persistent Volume Claims (PVCs) – Works well if your storage needs vary across environments.
+- StorageClasses (in some cases) – Helm can create them, but Kubernetes admins often prefer managing these separately for stability.
